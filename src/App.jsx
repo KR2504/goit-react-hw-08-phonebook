@@ -41,7 +41,7 @@ export default function App() {
                   <LoginPage />
                 </PublicRoute>
               } />
-              <Route path="/" element={<PrivateRoute redirectTo="/login" />} />
+              <Route path="/contacts" element={<PrivateRoute redirectTo="/login" />} />
             </Routes>
           </Suspense>
         </>
